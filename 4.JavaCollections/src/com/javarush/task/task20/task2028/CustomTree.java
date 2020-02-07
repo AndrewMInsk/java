@@ -11,7 +11,7 @@ public class CustomTree extends AbstractList<String> implements Cloneable, Seria
     public List<Entry> listFinal = new LinkedList<Entry>();
     public List<Entry> removeArray = new LinkedList<Entry>();
     int sizer = this.listFinal.size();
-
+//
     public void show(){
         for (Entry<String> item : this.listFinal)
         {
